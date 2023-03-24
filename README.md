@@ -39,3 +39,18 @@ tflint
     ├── version.tf               # Required terrform/plugin version
     ├── LICENSE
     └── README.md
+## Usage
+Initialize terraform with the envrionment variable
+```
+terraform init -backend-config=config/staging.hcl
+```
+
+Show what terraform will evaluate
+```
+terraform plan
+```
+
+Save the plan
+```
+terraform plan -out=sample-deployment
+```
