@@ -54,3 +54,8 @@ Save the plan
 ```
 terraform plan -out=sample-deployment
 ```
+
+Automatically Format Terraform
+```
+terraform fmt
+```
