@@ -59,3 +59,13 @@ Automatically Format Terraform
 ```
 terraform fmt
 ```
+
+If you delete some resources manually, Terraform might not be able to detect the change.
+In this scenario, we have to remove the resource by terraform cli command
+```
+terraform state list
+terraform state rm <name>
+```
+
+
+
