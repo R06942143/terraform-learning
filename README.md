@@ -50,6 +50,12 @@ Show what terraform will evaluate
 terraform plan
 ```
 
+Validate the plan
+```
+terraform validate
+```
+
+
 Save the plan
 ```
 terraform plan -out=sample-deployment
