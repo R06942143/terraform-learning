@@ -76,7 +76,7 @@ terraform state rm <name>
 
 
 ## Variables
-you can use the following command to pass the variable and in the terraform file, you can use the validation to validate the input.
+you can use the following command to pass the variable and you can use the validation to validate the input.
 ```
 variables name {
   type = string
